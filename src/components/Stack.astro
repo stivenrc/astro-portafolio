@@ -1,0 +1,58 @@
+---
+import Nextjs from "./logos/Nextjs.astro";
+import React from "./logos/React.astro";
+import Tecno from "./Tecno.astro";
+import LogoAstro from "./logos/Astro.astro";
+import Python from "./logos/Python.astro";
+import Javascript from "./logos/Javascript.astro";
+import Node from "./logos/Node.astro";
+import Mysql from "./logos/Mysql.astro";
+import Html from "./logos/Html.astro";
+import Php from "./logos/Php.astro";
+---
+
+<p class="font-bold text-lg my-6">Lenguajes De Programacion</p>
+
+<div class="flex flex-wrap justify-between">
+  <div class="h-60 rounded-full w-60 border-4 border-slate-700 object-cover" style="background-color: purple">
+    <div class="p-12 flex justify-center text-sm" style="margin: 30px">
+      <Tecno title="React">
+        <React />
+      </Tecno>
+      <Tecno title="Nextjs">
+        <Nextjs />
+      </Tecno>
+      <Tecno title="Astro">
+        <LogoAstro />
+      </Tecno>
+    </div>
+  </div>
+
+  <div class="h-60 rounded-full w-60 border-4 border-slate-700 object-cover" style="background-color: purple">
+    <div class="p-12 flex justify-center text-sm" style="margin: 30px">
+      <Tecno title="MySQL">
+        <Mysql />
+      </Tecno>
+      <Tecno title="PHP">
+        <Php />
+      </Tecno>
+      <Tecno title="HTML">
+        <Html />
+      </Tecno>
+    </div>
+  </div>
+
+  <div class="h-60 rounded-full w-60 border-4 border-slate-700 object-cover" style="background-color: purple">
+    <div class="p-12 flex justify-center text-sm" style="margin: 30px">
+      <Tecno title="Python">
+        <Python />
+      </Tecno>
+      <Tecno title="JavaScript">
+        <Javascript />
+      </Tecno>
+      <Tecno title="Node">
+        <Node />
+      </Tecno>
+    </div>
+  </div>
+</div>
